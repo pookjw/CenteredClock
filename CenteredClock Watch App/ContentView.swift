@@ -13,14 +13,14 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Button {
-                setStatusBarPlacement(1)
+                setStatusBarPlacement(.center)
             }
             label: {
                 Text("Center")
             }
             
             Button {
-                setStatusBarPlacement(0)
+                setStatusBarPlacement(.trailing)
             }
             label: {
                 Text("Trailing")

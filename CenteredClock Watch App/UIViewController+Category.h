@@ -9,7 +9,12 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-void setStatusBarPlacement(NSUInteger statusBarPlacement);
+typedef NS_ENUM(NSUInteger, PUICStatusBarPlacement) {
+    PUICStatusBarPlacementTrailing,
+    PUICStatusBarPlacementCenter
+};
+
+void setStatusBarPlacement(PUICStatusBarPlacement statusBarPlacement);
 
 @interface UIImage (Category)
 @end

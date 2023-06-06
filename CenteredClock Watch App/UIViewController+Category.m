@@ -9,9 +9,9 @@
 #import <objc/runtime.h>
 #import <objc/message.h>
 
-static NSUInteger _statusBarPlacement = 0;
+static PUICStatusBarPlacement _statusBarPlacement = PUICStatusBarPlacementCenter;
 
-void setStatusBarPlacement(NSUInteger statusBarPlacement) {
+void setStatusBarPlacement(PUICStatusBarPlacement statusBarPlacement) {
     _statusBarPlacement = statusBarPlacement;
     
     id application = ((id (*)(id, SEL))objc_msgSend)(NSClassFromString(@"PUICApplication"), NSSelectorFromString(@"sharedPUICApplication"));
@@ -30,7 +30,7 @@ void setStatusBarPlacement(NSUInteger statusBarPlacement) {
     ((void (*)(id, SEL, id))objc_msgSend)(statusBarManager, NSSelectorFromString(@"_updateStatusBarAppearanceSceneSettingsWithAnimationParameters:"), nil);
 }
 
-static NSUInteger custom_UIViewController_puic_statusBarPlacement(id self, SEL _cmd) {
+static PUICStatusBarPlacement custom_UIViewController_puic_statusBarPlacement(id self, SEL _cmd) {
     return _statusBarPlacement;
 };
 
