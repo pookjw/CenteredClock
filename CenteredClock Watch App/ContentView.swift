@@ -16,8 +16,6 @@ extension PUICStatusBarPlacement: CaseIterable, Identifiable {
 }
 
 struct ContentView: View {
-    @State var stack = [Int]()
-    
     var body: some View {
         List(PUICStatusBarPlacement.allCases) { placement in
             Button {
