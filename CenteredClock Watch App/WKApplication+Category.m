@@ -1,11 +1,11 @@
 //
-//  UIViewController+Category.m
+//  WKApplication+Category.m
 //  CenteredClock Watch App
 //
 //  Created by Jinwoo Kim on 6/6/23.
 //
 
-#import "UIViewController+Category.h"
+#import "WKApplication+Category.h"
 #import <objc/runtime.h>
 #import <objc/message.h>
 #import <dlfcn.h>
@@ -35,7 +35,7 @@ static PUICStatusBarPlacement custom_UIViewController_puic_statusBarPlacement(id
     return _statusBarPlacement;
 };
 
-@implementation UIImage (Category)
+@implementation WKApplication (Category)
 
 + (void)load {
     Method original = class_getInstanceMethod(NSClassFromString(@"UIViewController"), NSSelectorFromString(@"puic_statusBarPlacement"));

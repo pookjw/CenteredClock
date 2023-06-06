@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F2EF7562A2F41DC00B0F206 /* UIViewController+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2EF7552A2F41DC00B0F206 /* UIViewController+Category.m */; };
+		4F2EF7562A2F41DC00B0F206 /* WKApplication+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2EF7552A2F41DC00B0F206 /* WKApplication+Category.m */; };
 		4F3FFEDE2A2F2E86001F3BEC /* CenteredClock Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4F3FFEDD2A2F2E86001F3BEC /* CenteredClock Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4F3FFEE32A2F2E86001F3BEC /* CenteredClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3FFEE22A2F2E86001F3BEC /* CenteredClockApp.swift */; };
 		4F3FFEE52A2F2E87001F3BEC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3FFEE42A2F2E87001F3BEC /* ContentView.swift */; };
@@ -41,8 +41,8 @@
 
 /* Begin PBXFileReference section */
 		4F2EF7532A2F41DB00B0F206 /* CenteredClock Watch App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CenteredClock Watch App-Bridging-Header.h"; sourceTree = "<group>"; };
-		4F2EF7542A2F41DC00B0F206 /* UIViewController+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Category.h"; sourceTree = "<group>"; };
-		4F2EF7552A2F41DC00B0F206 /* UIViewController+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Category.m"; sourceTree = "<group>"; };
+		4F2EF7542A2F41DC00B0F206 /* WKApplication+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WKApplication+Category.h"; sourceTree = "<group>"; };
+		4F2EF7552A2F41DC00B0F206 /* WKApplication+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WKApplication+Category.m"; sourceTree = "<group>"; };
 		4F3FFED72A2F2E86001F3BEC /* CenteredClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CenteredClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F3FFEDD2A2F2E86001F3BEC /* CenteredClock Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CenteredClock Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F3FFEE22A2F2E86001F3BEC /* CenteredClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenteredClockApp.swift; sourceTree = "<group>"; };
@@ -84,8 +84,8 @@
 			children = (
 				4F3FFEE22A2F2E86001F3BEC /* CenteredClockApp.swift */,
 				4F3FFEE42A2F2E87001F3BEC /* ContentView.swift */,
-				4F2EF7542A2F41DC00B0F206 /* UIViewController+Category.h */,
-				4F2EF7552A2F41DC00B0F206 /* UIViewController+Category.m */,
+				4F2EF7542A2F41DC00B0F206 /* WKApplication+Category.h */,
+				4F2EF7552A2F41DC00B0F206 /* WKApplication+Category.m */,
 				4F3FFEE62A2F2E87001F3BEC /* Assets.xcassets */,
 				4F3FFEE82A2F2E87001F3BEC /* Preview Content */,
 				4F2EF7532A2F41DB00B0F206 /* CenteredClock Watch App-Bridging-Header.h */,
@@ -201,7 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F3FFEE52A2F2E87001F3BEC /* ContentView.swift in Sources */,
-				4F2EF7562A2F41DC00B0F206 /* UIViewController+Category.m in Sources */,
+				4F2EF7562A2F41DC00B0F206 /* WKApplication+Category.m in Sources */,
 				4F3FFEE32A2F2E86001F3BEC /* CenteredClockApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
