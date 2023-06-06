@@ -10,8 +10,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 typedef NS_ENUM(NSUInteger, PUICStatusBarPlacement) {
-    PUICStatusBarPlacementTrailing,
-    PUICStatusBarPlacementCentered
+    PUICStatusBarPlacementTrailing = 0,
+    PUICStatusBarPlacementCentered = 1 << 0
 };
 
 NSString * _Nonnull (* _Nonnull _NSStringFromPUICStatusBarPlacement)(PUICStatusBarPlacement);

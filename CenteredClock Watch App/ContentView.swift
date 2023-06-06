@@ -7,23 +7,24 @@
 
 import SwiftUI
 
+extension PUICStatusBarPlacement: CaseIterable, Identifiable {
+    public static let allCases: [PUICStatusBarPlacement] = [.trailing, .centered]
+    
+    public var id: UInt {
+        rawValue
+    }
+}
+
 struct ContentView: View {
     @State var stack = [Int]()
     
     var body: some View {
-        VStack {
+        List(PUICStatusBarPlacement.allCases) { placement in
             Button {
-                setStatusBarPlacement(.centered)
+                setStatusBarPlacement(placement)
             }
             label: {
-                Text(_NSStringFromPUICStatusBarPlacement(.centered))
-            }
-            
-            Button {
-                setStatusBarPlacement(.trailing)
-            }
-            label: {
-                Text(_NSStringFromPUICStatusBarPlacement(.trailing))
+                Text(_NSStringFromPUICStatusBarPlacement(placement))
             }
         }
     }
