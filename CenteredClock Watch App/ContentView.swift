@@ -22,7 +22,14 @@ struct ContentView: View {
                 setStatusBarPlacement(placement)
             }
             label: {
-                Text(_NSStringFromPUICStatusBarPlacement(placement))
+                switch placement {
+                case .trailing:
+                    Label(_NSStringFromPUICStatusBarPlacement(placement), systemImage: "text.justify.trailing")
+                case .centered:
+                    Label(_NSStringFromPUICStatusBarPlacement(placement), systemImage: "text.aligncenter")
+                @unknown default:
+                    fatalError()
+                }
             }
         }
     }
