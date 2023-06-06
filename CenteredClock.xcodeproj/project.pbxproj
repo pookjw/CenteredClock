@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F2EF7562A2F41DC00B0F206 /* UIViewController+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2EF7552A2F41DC00B0F206 /* UIViewController+Category.m */; };
+		4F3FFEDE2A2F2E86001F3BEC /* CenteredClock Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4F3FFEDD2A2F2E86001F3BEC /* CenteredClock Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4F3FFEE32A2F2E86001F3BEC /* CenteredClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3FFEE22A2F2E86001F3BEC /* CenteredClockApp.swift */; };
+		4F3FFEE52A2F2E87001F3BEC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3FFEE42A2F2E87001F3BEC /* ContentView.swift */; };
+		4F3FFEE72A2F2E87001F3BEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F3FFEE62A2F2E87001F3BEC /* Assets.xcassets */; };
+		4F3FFEEA2A2F2E87001F3BEC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F3FFEE92A2F2E87001F3BEC /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F3FFEDF2A2F2E86001F3BEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F3FFED12A2F2E86001F3BEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F3FFEDC2A2F2E86001F3BEC;
+			remoteInfo = "CenteredClock Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4F3FFEF02A2F2E87001F3BEC /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				4F3FFEDE2A2F2E86001F3BEC /* CenteredClock Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4F2EF7532A2F41DB00B0F206 /* CenteredClock Watch App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CenteredClock Watch App-Bridging-Header.h"; sourceTree = "<group>"; };
+		4F2EF7542A2F41DC00B0F206 /* UIViewController+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Category.h"; sourceTree = "<group>"; };
+		4F2EF7552A2F41DC00B0F206 /* UIViewController+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Category.m"; sourceTree = "<group>"; };
+		4F3FFED72A2F2E86001F3BEC /* CenteredClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CenteredClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F3FFEDD2A2F2E86001F3BEC /* CenteredClock Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CenteredClock Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F3FFEE22A2F2E86001F3BEC /* CenteredClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenteredClockApp.swift; sourceTree = "<group>"; };
+		4F3FFEE42A2F2E87001F3BEC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4F3FFEE62A2F2E87001F3BEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F3FFEE92A2F2E87001F3BEC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F3FFEDA2A2F2E86001F3BEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F3FFED02A2F2E86001F3BEC = {
+			isa = PBXGroup;
+			children = (
+				4F3FFEE12A2F2E86001F3BEC /* CenteredClock Watch App */,
+				4F3FFED82A2F2E86001F3BEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F3FFED82A2F2E86001F3BEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F3FFED72A2F2E86001F3BEC /* CenteredClock.app */,
+				4F3FFEDD2A2F2E86001F3BEC /* CenteredClock Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F3FFEE12A2F2E86001F3BEC /* CenteredClock Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				4F3FFEE22A2F2E86001F3BEC /* CenteredClockApp.swift */,
+				4F3FFEE42A2F2E87001F3BEC /* ContentView.swift */,
+				4F2EF7542A2F41DC00B0F206 /* UIViewController+Category.h */,
+				4F2EF7552A2F41DC00B0F206 /* UIViewController+Category.m */,
+				4F3FFEE62A2F2E87001F3BEC /* Assets.xcassets */,
+				4F3FFEE82A2F2E87001F3BEC /* Preview Content */,
+				4F2EF7532A2F41DB00B0F206 /* CenteredClock Watch App-Bridging-Header.h */,
+			);
+			path = "CenteredClock Watch App";
+			sourceTree = "<group>";
+		};
+		4F3FFEE82A2F2E87001F3BEC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4F3FFEE92A2F2E87001F3BEC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F3FFED62A2F2E86001F3BEC /* CenteredClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F3FFEF12A2F2E87001F3BEC /* Build configuration list for PBXNativeTarget "CenteredClock" */;
+			buildPhases = (
+				4F3FFED52A2F2E86001F3BEC /* Resources */,
+				4F3FFEF02A2F2E87001F3BEC /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F3FFEE02A2F2E86001F3BEC /* PBXTargetDependency */,
+			);
+			name = CenteredClock;
+			productName = CenteredClock;
+			productReference = 4F3FFED72A2F2E86001F3BEC /* CenteredClock.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		4F3FFEDC2A2F2E86001F3BEC /* CenteredClock Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F3FFEED2A2F2E87001F3BEC /* Build configuration list for PBXNativeTarget "CenteredClock Watch App" */;
+			buildPhases = (
+				4F3FFED92A2F2E86001F3BEC /* Sources */,
+				4F3FFEDA2A2F2E86001F3BEC /* Frameworks */,
+				4F3FFEDB2A2F2E86001F3BEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CenteredClock Watch App";
+			productName = "CenteredClock Watch App";
+			productReference = 4F3FFEDD2A2F2E86001F3BEC /* CenteredClock Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F3FFED12A2F2E86001F3BEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					4F3FFED62A2F2E86001F3BEC = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					4F3FFEDC2A2F2E86001F3BEC = {
+						CreatedOnToolsVersion = 15.0;
+						LastSwiftMigration = 1500;
+					};
+				};
+			};
+			buildConfigurationList = 4F3FFED42A2F2E86001F3BEC /* Build configuration list for PBXProject "CenteredClock" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F3FFED02A2F2E86001F3BEC;
+			productRefGroup = 4F3FFED82A2F2E86001F3BEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F3FFED62A2F2E86001F3BEC /* CenteredClock */,
+				4F3FFEDC2A2F2E86001F3BEC /* CenteredClock Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F3FFED52A2F2E86001F3BEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F3FFEDB2A2F2E86001F3BEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F3FFEEA2A2F2E87001F3BEC /* Preview Assets.xcassets in Resources */,
+				4F3FFEE72A2F2E87001F3BEC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F3FFED92A2F2E86001F3BEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F3FFEE52A2F2E87001F3BEC /* ContentView.swift in Sources */,
+				4F2EF7562A2F41DC00B0F206 /* UIViewController+Category.m in Sources */,
+				4F3FFEE32A2F2E86001F3BEC /* CenteredClockApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F3FFEE02A2F2E86001F3BEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F3FFEDC2A2F2E86001F3BEC /* CenteredClock Watch App */;
+			targetProxy = 4F3FFEDF2A2F2E86001F3BEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4F3FFEEB2A2F2E87001F3BEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F3FFEEC2A2F2E87001F3BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		4F3FFEEE2A2F2E87001F3BEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CenteredClock Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = P53D29U9LJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CenteredClock;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pookjw.CenteredClock.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CenteredClock Watch App/CenteredClock Watch App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		4F3FFEEF2A2F2E87001F3BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CenteredClock Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = P53D29U9LJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CenteredClock;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pookjw.CenteredClock.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CenteredClock Watch App/CenteredClock Watch App-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		4F3FFEF22A2F2E87001F3BEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P53D29U9LJ;
+				INFOPLIST_KEY_CFBundleDisplayName = CenteredClock;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pookjw.CenteredClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4F3FFEF32A2F2E87001F3BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P53D29U9LJ;
+				INFOPLIST_KEY_CFBundleDisplayName = CenteredClock;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pookjw.CenteredClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F3FFED42A2F2E86001F3BEC /* Build configuration list for PBXProject "CenteredClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F3FFEEB2A2F2E87001F3BEC /* Debug */,
+				4F3FFEEC2A2F2E87001F3BEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F3FFEED2A2F2E87001F3BEC /* Build configuration list for PBXNativeTarget "CenteredClock Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F3FFEEE2A2F2E87001F3BEC /* Debug */,
+				4F3FFEEF2A2F2E87001F3BEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F3FFEF12A2F2E87001F3BEC /* Build configuration list for PBXNativeTarget "CenteredClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F3FFEF22A2F2E87001F3BEC /* Debug */,
+				4F3FFEF32A2F2E87001F3BEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F3FFED12A2F2E86001F3BEC /* Project object */;
+}
