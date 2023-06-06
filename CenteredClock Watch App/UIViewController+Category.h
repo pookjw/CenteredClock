@@ -11,9 +11,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 typedef NS_ENUM(NSUInteger, PUICStatusBarPlacement) {
     PUICStatusBarPlacementTrailing,
-    PUICStatusBarPlacementCenter
+    PUICStatusBarPlacementCentered
 };
 
+NSString * _Nonnull (* _Nonnull _NSStringFromPUICStatusBarPlacement)(PUICStatusBarPlacement);
 void setStatusBarPlacement(PUICStatusBarPlacement statusBarPlacement);
 
 @interface UIImage (Category)

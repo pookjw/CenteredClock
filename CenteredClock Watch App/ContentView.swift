@@ -13,17 +13,17 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Button {
-                setStatusBarPlacement(.center)
+                setStatusBarPlacement(.centered)
             }
             label: {
-                Text("Center")
+                Text(_NSStringFromPUICStatusBarPlacement(.centered))
             }
             
             Button {
                 setStatusBarPlacement(.trailing)
             }
             label: {
-                Text("Trailing")
+                Text(_NSStringFromPUICStatusBarPlacement(.trailing))
             }
         }
     }
