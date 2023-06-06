@@ -41,7 +41,7 @@ static PUICStatusBarPlacement custom_UIViewController_puic_statusBarPlacement(id
     Method original = class_getInstanceMethod(NSClassFromString(@"UIViewController"), NSSelectorFromString(@"puic_statusBarPlacement"));
     method_setImplementation(original, (IMP)custom_UIViewController_puic_statusBarPlacement);
     
-    void *handle = dlopen("/System/Library/PrivateFrameworks/PepperUICore.framework/PepperUICore", RTLD_NOW);
+    void *handle = dlopen("/System/Library/PrivateFrameworks/PepperUICore.framework/PepperUICore", RTLD_LAZY);
     _NSStringFromPUICStatusBarPlacement = dlsym(handle, "NSStringFromPUICStatusBarPlacement");
 }
 
