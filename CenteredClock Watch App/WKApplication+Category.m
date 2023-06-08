@@ -15,18 +15,23 @@ static PUICStatusBarPlacement _statusBarPlacement = PUICStatusBarPlacementCenter
 void setStatusBarPlacement(PUICStatusBarPlacement statusBarPlacement) {
     _statusBarPlacement = statusBarPlacement;
     
+    // PUICApplication
     id application = ((id (*)(id, SEL))objc_msgSend)(NSClassFromString(@"PUICApplication"), NSSelectorFromString(@"sharedPUICApplication"));
+    
     NSArray *connectedScenes = ((NSArray * (*)(id, SEL))objc_msgSend)(application, NSSelectorFromString(@"connectedScenes"));
     __block id _Nullable windowScene;
     [connectedScenes enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         if (![obj isKindOfClass:NSClassFromString(@"UIWindowScene")]) return;
         NSInteger activationState = ((NSInteger (*)(id, SEL))objc_msgSend)(obj, NSSelectorFromString(@"activationState"));
+        
+        // UISceneActivationStateForegroundActive
         if (activationState == 0) {
             windowScene = obj;
             *stop = YES;
         }
     }];
     
+    // PUICStatusBarManager
     id statusBarManager = ((id (*)(id, SEL))objc_msgSend)(windowScene, NSSelectorFromString(@"statusBarManager"));
     ((void (*)(id, SEL, id))objc_msgSend)(statusBarManager, NSSelectorFromString(@"_updateStatusBarAppearanceSceneSettingsWithAnimationParameters:"), nil);
 }
